@@ -23,7 +23,7 @@ The Transformer model used in this implementation consists of the following laye
 
 ## Training
 
-The model was trained using the Stochastic Gradient Descent (SGD) optimizer and CrossEntropyLoss loss function. The train_loop function was used to train the model for a specified number of epochs. The function includes a validation_loop to evaluate the model's performance on a validation set after each epoch. The model was trained for 10 epochs on the provided dataset.
+The model was trained using the Stochastic Gradient Descent (SGD) optimizer and CrossEntropyLoss loss function. The train_loop function was used to train the model for a specified number of epochs. The function includes a validation_loop to evaluate the model's performance on a validation set after each epoch. The model was trained for 10 epochs on the provided dataset. It uses custom Positional Encoding, Encoder-Decoder Transformer blocks, and target masking for effective training. 
 
 
 ## Evaluation
